@@ -1,6 +1,7 @@
 /*Image Stylings*/
 img {
     border: 2px solid #3882F6;
+    max-width: 100%;
 }
 
 #group {
@@ -149,6 +150,10 @@ ul {
     justify-content: center;
 }
 
+.quotes p {
+    padding: 10px;
+}
+
 h3 {
     padding-bottom: 5px;
 }
@@ -166,4 +171,14 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 767px) {
+
+    #section1 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
